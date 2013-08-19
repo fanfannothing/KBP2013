@@ -9,6 +9,10 @@ package thu.nlp.kbp.utils;
  */
 public class Settings {
 	
+	public static String wikiLinkFile = "size32_links";
+	public static String wikiCateFile = "size32_cate";
+	public static String wikiIndexFile = "size32_index";
+	
 	/**
 	 * 构造函数用于初始化一些HashMap或者ArrayList等容器。
 	 */

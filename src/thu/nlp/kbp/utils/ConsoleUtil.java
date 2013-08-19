@@ -58,30 +58,4 @@ public class ConsoleUtil {
 		}
 		return sb.toString();
 	}
-	
-	public static String consoleCall(String[] cmd) {
-		StringBuilder sb = new StringBuilder();
-		try {
-			Process p = Runtime.getRuntime().exec(cmd);
-			Runtime.getRuntime();
-			p.waitFor();
-			InputStream is = p.getInputStream();
-			InputStreamReader isr = new InputStreamReader(is);
-			BufferedReader reader = new BufferedReader(isr);
-			String temp = null;
-			while ((temp = reader.readLine()) != null) {
-				sb.append(temp);
-				sb.append('\n');
-			}
-			p.destroy();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return sb.toString();
-	}
-	
 }
