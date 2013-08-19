@@ -222,18 +222,18 @@ public class WikiInfoExtract {
 			Map.Entry entry = (Map.Entry) iter.next();
 			int  key = (Integer) entry.getKey();
 			writer.write(key+"");
-			//输出entity的category feature
-			Set  val = (Set) entry.getValue();
-			for(Object jie :val) 
-			{
-				int i =  (Integer)jie;
-				writer.write("\t"+i+":"+"1");
-			}
 			//输出entity的context feature
 			Set  val1 = id2context.get(key);
 			for(Object jie :val1) 
 			{
-				int i =  (Integer)jie+categorynum;
+				int i =  (Integer)jie;
+				writer.write("\t"+i+":"+"1");
+			}
+			//输出entity的category feature
+			Set  val = (Set) entry.getValue();
+			for(Object jie :val) 
+			{
+				int i =  (Integer)jie+contextnum;
 				writer.write("\t"+i+":"+"1");
 			}
 			writer.write("\n");
