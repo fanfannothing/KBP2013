@@ -1,0 +1,23 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .classpath
+#	new file:   .gitignore
+#	new file:   .project
+#	new file:   LICENSE
+#	new file:   README.md
+#	new file:   qu0rs2jl.isg.txt.bak
+#	new file:   src/thu/nlp/kbp/utils/ConsoleUtil.java
+#	new file:   src/thu/nlp/kbp/utils/MyFileReader.java
+#	new file:   src/thu/nlp/kbp/utils/MyFileWriter.java
+#	new file:   src/thu/nlp/kbp/utils/Settings.java
+#	new file:   src/thu/nlp/kbp/wy/WyTest.java
+#
+

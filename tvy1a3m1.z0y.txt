@@ -1,0 +1,1 @@
+恢复了之前的一个consoleCall方法
